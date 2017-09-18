@@ -60,11 +60,13 @@ function memoryFlipTile(tile,val){
 				// Check to see if the whole board is cleared & add to score
 				document.getElementById("output").innerHTML = tiles_flipped/2;
 				if(tiles_flipped == memory_array.length){
-					alert("Contratulations! You Win! Generating new board!");
+					setTimeout(function(){alert("Contratulations! You Win! Generating new board!");
 					document.getElementById('memory_board').innerHTML = "";
-					newBoard();
+					newBoard();} , 1000);
 
 				}
+
+
 			} else {
 				function flip2Back(){
 				    // Flip the 2 tiles back over

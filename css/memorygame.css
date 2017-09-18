@@ -120,9 +120,9 @@ div#memory_board > div {
   padding:20px;
 }
 
-div#output{
-height: 100px;
-width: 100px;
+div#scoreBox{
+height: 50px;
+width: 150px;
 border: 1px solid grey;
 margin: 0 auto;
 font-family: arial;

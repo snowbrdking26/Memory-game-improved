@@ -58,12 +58,13 @@ function memoryFlipTile(tile,val){
 				memory_values = [];
             	memory_tile_ids = [];
 				// Check to see if the whole board is cleared & add to score
-				document.getElementById("output").innerHTML = tiles_flipped/2;
+					document.getElementById("output").innerHTML = tiles_flipped/2;
 				if(tiles_flipped == memory_array.length){
 					setTimeout(function(){alert("Contratulations! You Win! Generating new board!");
 					document.getElementById('memory_board').innerHTML = "";
-					newBoard();} , 1000);
-
+					newBoard();
+					document.getElementById("output").innerHTML = 0;
+					} , 500);
 				}
 
 

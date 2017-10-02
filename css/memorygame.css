@@ -109,6 +109,7 @@ div#memory_board{
   height:540px;*/
   padding:24px;
   margin:0px auto;
+
 }
 div#memory_board > div {
   background: url('back.PNG') center no-repeat;
@@ -137,3 +138,4 @@ p.output{
   font-family: "Droid Serif", serif;
   font-size: 18px;
 }
+

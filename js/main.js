@@ -21,6 +21,7 @@ var tiles_flipped = 0;
 // 	output = tiles_flipped();
 // };
 
+// below I used some code from Memory-Game-Programming-Tutorial to shuffle cards.
 
 Array.prototype.memory_tile_shuffle = function(){
     var i = this.length, j, temp;
@@ -87,6 +88,9 @@ function memoryFlipTile(tile,val){
 		}
 	}
 }
+
+// Above I used some code from Memory-Game-Programming-Tutorial to shuffle cards.
+// As well as to flip cards over, and reset board with a setTimeout function.
 
 
 
